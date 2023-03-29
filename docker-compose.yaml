@@ -8,7 +8,6 @@ services:
       - PORT=8080
       - NODE_ENV=product
       # - CORSANYWHERE_WHITELIST=https://example.com,http://example.com,http://example.com:8080
-      # - NODE_OPTIONS="--require helios-opentelemetry-sdk" # TODO: Variable should be set before process starts
       # - HS_TOKEN="<TOKEN>"
       # - HS_SERVICE_NAME="<SERVICE_NAME>" # TODO: Replace value with service name.
       # - HS_ENVIRONMENT="<ENVIRONMENT_NAME>" # TODO: Replace value with service environment.
