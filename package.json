@@ -28,6 +28,7 @@
     "server.js"
   ],
   "dependencies": {
+    "helios-opentelemetry-sdk": "^1.0.60",
     "http-proxy": "1.18.1",
     "proxy-from-env": "1.1.0"
   },
