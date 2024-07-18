@@ -1,9 +1,8 @@
-version: "3.8"
 services:
   cors:
     build: .
     ports:
-      - 8080:8080
+      - 80:8080
     environment:
       - PORT=8080
       - NODE_ENV=product
